@@ -1,38 +1,35 @@
+<!DOCTYPE html>
 <html>
-    <head>
-        <title>techer activity</title>
-    </head>
-    <body>
-        <h1>
-            OPEN CONSOLE
-        </h1>
+<head>
+	<title>Chat With Rishik</title>
+<link href="https://fonts.googleapis.com/css?family=Yeon+Sung&display=swap" rel="stylesheet"><meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <script>
-            console.log("hi am console screen");
-            
-            var first_name = "Rishik";
-            console.log(first_name);
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
-            var last_name = "Allagadda";
-            console.log(last_name);
+<link rel="stylesheet" type="text/css" href="style.css">
+<script src="kwitter.js"></script>
+</head>
+<body>
+<center>
+	<h1 class="header">	
+		Chat With Rishik	<sup>
+	<img src="m2.png">
+	</sup>
+</h1>
+	<div class="col-lg-4 col-md-6 col-sm-6 col-xs-11 login_div">
+	<img src="logo.png" class="logo">
+		<h3 >See what is happening in the world right now</h3>
+		<h4 >Join Chat With Rishik today</h4>
+		<div class="form-group">
+		  <label >User Name:</label>
+		  <input type="text" id="user_name" class="form-control" placeholder="User_Name"
 
-            var full_name = first_name.concat(last_name);
-            console.log(full_name);
-
-            var name_one = "Akshara Allagadda";
-            console.log(name_one);
-
-            var number_1 = 12;
-            var number_2 = 3;
-            console.log(number_1 + number_2);
-
-            var number_1 = 12;
-            var number_2 = 100;
-            console.log(number_1 - number_2);
-
-            var number_1 = 12;
-            var number_2 = 100;
-            console.log(number_1 * number_2);
-        </script>
-    </body>
+		</div>
+		<button id="login_button" class="btn btn-primary" onclick="addUser()">Log in</button>
+		<br><br>
+	</div>
+</center>
+</body>
 </html>
