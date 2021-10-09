@@ -1,16 +1,4 @@
-//ADD YOUR FIREBASE LINKS HERE
-var firebaseConfig = {
-    apiKey: "AIzaSyCQPPJN5ZTU8fRFOf-s1XABUkf-39VGi_8",
-    authDomain: "kwitter-85564.firebaseapp.com",
-    databaseURL: "https://kwitter-85564-default-rtdb.firebaseio.com",
-    projectId: "kwitter-85564",
-    storageBucket: "kwitter-85564.appspot.com",
-    messagingSenderId: "85898531316",
-    appId: "1:85898531316:web:3d6ab25a6459df5bb9e9a1"
-  };
-  
-  // Initialize Firebase
-  firebase.initializeApp(firebaseConfig);
+
 
 function addRoom()
 {
